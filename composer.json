@@ -1,0 +1,11 @@
+{
+  "require": {
+    "rpgmanager/rpgmanager": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../RPGManager"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "places": [
+    {
+      "name": "",
+      "description":"",
+      "direction": [
+        {
+          "directionName": "",
+          "placeArrival": ""
+        }
+      ],
+      "monsters": [
+        {
+          "name": "",
+          "number": [null, null]
+        }
+      ],
+      "items": [
+        {
+          "name": "",
+          "number": [null, null]
+        }
+      ],
+      "npcs": [
+        {
+          "name": "",
+          "number": null
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "",
+      "description": "",
+      "stats": [
+        {
+          "name": "",
+          "value": null
+        }
+      ],
+      "skills": [
+        {
+          "name": "",
+          "description": "",
+          "stats": [
+            {
+              "name": "",
+              "value": null
+            }
+          ]
+        }
+      ],
+      "inventory": [
+        {
+          "name": "",
+          "number": null
+        }
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "name": "",
+      "description": "",
+      "dialogs": []
+    }
+  ],
+  "monsters": [
+    {
+      "name": "",
+      "description": "",
+      "stats": [
+        {
+          "name": "",
+          "value": null
+        }
+      ],
+      "skills": [
+        {
+          "name": "",
+          "description": "",
+          "stats": [
+            {
+              "name": "",
+              "value": null
+            }
+          ]
+        }
+      ],
+      "inventory": [
+        {
+          "name": "",
+          "number": null
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "",
+      "description": "",
+      "stats": [
+        {
+          "name": "",
+          "value": null
+        }
+      ]
+    }
+  ]
+}
