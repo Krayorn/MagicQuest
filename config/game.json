@@ -1,111 +1,115 @@
 {
-  "places": [
-    {
-      "name": "",
-      "description":"",
-      "direction": [
+    "places": [
         {
-          "directionName": "",
-          "placeArrival": ""
+            "name": "",
+            "description": "",
+            "direction": [
+                {
+                    "directionName": "",
+                    "placeArrival": ""
+                }
+            ],
+            "monsters": [
+                {
+                    "name": "",
+                    "number": [
+                        null,
+                        null
+                    ]
+                }
+            ],
+            "items": [
+                {
+                    "name": "",
+                    "number": [
+                        null,
+                        null
+                    ]
+                }
+            ],
+            "npcs": [
+                {
+                    "name": "",
+                    "number": null
+                }
+            ]
         }
-      ],
-      "monsters": [
+    ],
+    "characters": [
         {
-          "name": "",
-          "number": [null, null]
-        }
-      ],
-      "items": [
-        {
-          "name": "",
-          "number": [null, null]
-        }
-      ],
-      "npcs": [
-        {
-          "name": "",
-          "number": null
-        }
-      ]
-    }
-  ],
-  "characters": [
-    {
-      "name": "",
-      "description": "",
-      "stats": [
-        {
-          "name": "",
-          "value": null
-        }
-      ],
-      "skills": [
-        {
-          "name": "",
-          "description": "",
-          "stats": [
-            {
-              "name": "",
-              "value": null
+            "name": "",
+            "description": "",
+            "stats": [
+                {
+                    "name": "",
+                    "value": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "",
+                    "description": "",
+                    "value": "" 
+                }
+            ],
+            "inventory": [
+                {
+                    "name": "",
+                    "number": null
+                }
+            ],
+            "position": {
+                "place": ""
             }
-          ]
         }
-      ],
-      "inventory": [
+    ],
+    "npcs": [
         {
-          "name": "",
-          "number": null
+            "name": "",
+            "description": "",
+            "dialogs": []
         }
-      ]
-    }
-  ],
-  "npcs": [
-    {
-      "name": "",
-      "description": "",
-      "dialogs": []
-    }
-  ],
-  "monsters": [
-    {
-      "name": "",
-      "description": "",
-      "stats": [
+    ],
+    "monsters": [
         {
-          "name": "",
-          "value": null
+            "name": "",
+            "description": "",
+            "stats": [
+                {
+                    "name": "",
+                    "value": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "",
+                    "description": "",
+                    "stats": [
+                        {
+                            "name": "",
+                            "value": null
+                        }
+                    ]
+                }
+            ],
+            "inventory": [
+                {
+                    "name": "",
+                    "number": null
+                }
+            ]
         }
-      ],
-      "skills": [
+    ],
+    "items": [
         {
-          "name": "",
-          "description": "",
-          "stats": [
-            {
-              "name": "",
-              "value": null
-            }
-          ]
+            "name": "",
+            "description": "",
+            "stats": [
+                {
+                    "name": "",
+                    "value": null
+                }
+            ]
         }
-      ],
-      "inventory": [
-        {
-          "name": "",
-          "number": null
-        }
-      ]
-    }
-  ],
-  "items": [
-    {
-      "name": "",
-      "description": "",
-      "stats": [
-        {
-          "name": "",
-          "value": null
-        }
-      ]
-    }
-  ]
+    ]
 }

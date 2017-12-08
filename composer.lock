@@ -659,7 +659,7 @@
             "dist": {
                 "type": "path",
                 "url": "../RPGManager",
-                "reference": "566e5f4c3ada181c904c3cc6e974ec385cfcaec2",
+                "reference": "fd9ca62adbff0fe4fd4f0d8c62dd7a86e22de6b5",
                 "shasum": null
             },
             "require": {
