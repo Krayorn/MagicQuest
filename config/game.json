@@ -56,16 +56,15 @@
                     "number": null
                 }
             ],
-            "position": {
-                "place": ""
-            }
+            "location": ""
         }
     ],
     "npcs": [
         {
             "name": "",
             "description": "",
-            "dialogs": []
+            "dialogs": [],
+            "location": ""
         }
     ],
     "monsters": [

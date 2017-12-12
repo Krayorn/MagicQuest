@@ -46,9 +46,120 @@ class Character
     /**
      * @var \int
      *
-     * @Column(name="position", type="integer")
+     * @Column(name="location", type="integer")
      */
-    private $position;
+    private $location;
 
+    /**
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param int $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
+    /**
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * @param string $name
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+
+    /**
+     * @return string
+     */
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    /**
+     * @param string $description
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCharacterinventories()
+    {
+        return $this->characterinventories;
+    }
+
+    /**
+     * @param mixed $characterinventories
+     */
+    public function setCharacterinventories($characterinventories)
+    {
+        $this->characterinventories = $characterinventories;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCharacterstats()
+    {
+        return $this->characterstats;
+    }
+
+    /**
+     * @param mixed $characterstats
+     */
+    public function setCharacterstats($characterstats)
+    {
+        $this->characterstats = $characterstats;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCharacterspells()
+    {
+        return $this->characterspells;
+    }
+
+    /**
+     * @param mixed $characterspells
+     */
+    public function setCharacterspells($characterspells)
+    {
+        $this->characterspells = $characterspells;
+    }
+
+    /**
+     * @return int
+     */
+    public function getLocation()
+    {
+        return $this->location;
+    }
+
+    /**
+     * @param int $location
+     */
+    public function setLocation($location)
+    {
+        $this->location = $location;
+    }
 
 }

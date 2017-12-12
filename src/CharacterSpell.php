@@ -26,4 +26,52 @@ class CharacterSpell
      */
     private $spells;
 
+    /**
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param int $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCharacter()
+    {
+        return $this->character;
+    }
+
+    /**
+     * @param mixed $character
+     */
+    public function setCharacter($character)
+    {
+        $this->character = $character;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSpells()
+    {
+        return $this->spells;
+    }
+
+    /**
+     * @param mixed $spells
+     */
+    public function setSpells($spells)
+    {
+        $this->spells = $spells;
+    }
+
 }

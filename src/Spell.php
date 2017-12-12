@@ -50,5 +50,116 @@ class Spell
      */
     private $monsterspells;
 
+    /**
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param int $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
+    /**
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * @param string $name
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+
+    /**
+     * @return string
+     */
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    /**
+     * @param string $description
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+    }
+
+    /**
+     * @return string
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
+
+    /**
+     * @param string $type
+     */
+    public function setType($type)
+    {
+        $this->type = $type;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSpellstats()
+    {
+        return $this->spellstats;
+    }
+
+    /**
+     * @param mixed $spellstats
+     */
+    public function setSpellstats($spellstats)
+    {
+        $this->spellstats = $spellstats;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCharacterspells()
+    {
+        return $this->characterspells;
+    }
+
+    /**
+     * @param mixed $characterspells
+     */
+    public function setCharacterspells($characterspells)
+    {
+        $this->characterspells = $characterspells;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getMonsterspells()
+    {
+        return $this->monsterspells;
+    }
+
+    /**
+     * @param mixed $monsterspells
+     */
+    public function setMonsterspells($monsterspells)
+    {
+        $this->monsterspells = $monsterspells;
+    }
 
 }

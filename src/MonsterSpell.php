@@ -26,4 +26,52 @@ class MonsterSpell
      */
     private $spells;
 
+    /**
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param int $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getMonsters()
+    {
+        return $this->monsters;
+    }
+
+    /**
+     * @param mixed $monsters
+     */
+    public function setMonsters($monsters)
+    {
+        $this->monsters = $monsters;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSpells()
+    {
+        return $this->spells;
+    }
+
+    /**
+     * @param mixed $spells
+     */
+    public function setSpells($spells)
+    {
+        $this->spells = $spells;
+    }
+
 }

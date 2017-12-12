@@ -26,5 +26,53 @@ class MonsterStat
      */
     private $stat;
 
+    /**
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param int $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getMonster()
+    {
+        return $this->monster;
+    }
+
+    /**
+     * @param mixed $monster
+     */
+    public function setMonster($monster)
+    {
+        $this->monster = $monster;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getStat()
+    {
+        return $this->stat;
+    }
+
+    /**
+     * @param mixed $stat
+     */
+    public function setStat($stat)
+    {
+        $this->stat = $stat;
+    }
+
 }
 

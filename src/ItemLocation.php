@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @Entity @Table(name="itemstat")
+ * @Entity @Table(name="itemlocation")
  **/
-class ItemStat
+class ItemLocation
 {
     /**
      * @var int
@@ -15,16 +15,16 @@ class ItemStat
     private $id;
 
     /**
-     * @ManyToOne(targetEntity="Item", inversedBy="itemstats", cascade={"persist"})
+     * @ManyToOne(targetEntity="Item", inversedBy="itemlocations", cascade={"persist"})
      * @JoinColumn(name="item_id", referencedColumnName="id")
      */
     private $item;
 
     /**
-     * @ManyToOne(targetEntity="Stat", inversedBy="itemstats", cascade={"persist"})
-     * @JoinColumn(name="stat_id", referencedColumnName="id")
+     * @ManyToOne(targetEntity="Place", inversedBy="itemlocations", cascade={"persist"})
+     * @JoinColumn(name="place_id", referencedColumnName="id")
      */
-    private $stat;
+    private $place;
 
     /**
      * @return int
@@ -61,17 +61,17 @@ class ItemStat
     /**
      * @return mixed
      */
-    public function getStat()
+    public function getPlace()
     {
-        return $this->stat;
+        return $this->place;
     }
 
     /**
-     * @param mixed $stat
+     * @param mixed $place
      */
-    public function setStat($stat)
+    public function setPlace($place)
     {
-        $this->stat = $stat;
+        $this->place = $place;
     }
 
 }

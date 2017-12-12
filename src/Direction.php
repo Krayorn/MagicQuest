@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @Entity @Table(name="npc")
+ * @Entity @Table(name="direction")
  **/
-class Npc
+class Direction
 {
     /**
      * @var int
@@ -29,18 +29,10 @@ class Npc
     private $description;
 
     /**
-     * @var \string
-     *
-     * @Column(name="dialog", type="text")
+     * @ManyToOne(targetEntity="Place", inversedBy="directions", cascade={"persist"})
+     * @JoinColumn(name="place_id", referencedColumnName="id")
      */
-    private $dialog;
-
-
-    /**
-     * @ManyToOne(targetEntity="Place", inversedBy="npcs", cascade={"persist"})
-     * @JoinColumn(name="location", referencedColumnName="id")
-     */
-    private $location;
+    private $place;
 
     /**
      * @return int
@@ -91,35 +83,19 @@ class Npc
     }
 
     /**
-     * @return string
-     */
-    public function getDialog()
-    {
-        return $this->dialog;
-    }
-
-    /**
-     * @param string $dialog
-     */
-    public function setDialog($dialog)
-    {
-        $this->dialog = $dialog;
-    }
-
-    /**
      * @return mixed
      */
-    public function getLocation()
+    public function getPlace()
     {
-        return $this->location;
+        return $this->place;
     }
 
     /**
-     * @param mixed $location
+     * @param mixed $place
      */
-    public function setLocation($location)
+    public function setPlace($place)
     {
-        $this->location = $location;
+        $this->place = $place;
     }
 
 }
