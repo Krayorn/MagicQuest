@@ -2,7 +2,7 @@
 
 require_once('vendor/autoload.php');
 
-use RPGManager\Utils\Game;
+use RPGManager\Model\Game;
 
 // $configDb = file_get_contents('config/config.php');
 // $config = json_decode($configDb, true);
