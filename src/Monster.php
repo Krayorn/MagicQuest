@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @Entity @Table(name="item")
+ * @Entity @Table(name="monster")
  **/
-class Item
+class Monster
 {
     /**
      * @var int
@@ -29,18 +29,18 @@ class Item
     private $description;
 
     /**
-     * @OneToMany(targetEntity="ItemStat", mappedBy="item", cascade={"persist"})
-     */
-    private $itemstats;
-
-    /**
-     * @OneToMany(targetEntity="CharacterInventory", mappedBy="item", cascade={"persist"})
-     */
-    private $characterinventories;
-
-    /**
-     * @OneToMany(targetEntity="MonsterInventory", mappedBy="item", cascade={"persist"})
+     * @OneToMany(targetEntity="MonsterInventory", mappedBy="monster", cascade={"persist"})
      */
     private $monsterinventories;
+
+    /**
+     * @OneToMany(targetEntity="MonsterStat", mappedBy="monster", cascade={"persist"})
+     */
+    private $monsterstats;
+
+    /**
+     * @OneToMany(targetEntity="MonsterSpell", mappedBy="monster", cascade={"persist"})
+     */
+    private $monsterspells;
 
 }

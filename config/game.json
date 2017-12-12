@@ -42,14 +42,12 @@
             "stats": [
                 {
                     "name": "",
-                    "value": null
+                    "value": ""
                 }
             ],
-            "skills": [
+            "spells": [
                 {
-                    "name": "",
-                    "description": "",
-                    "value": "" 
+                    "name": ""
                 }
             ],
             "inventory": [
@@ -80,16 +78,10 @@
                     "value": null
                 }
             ],
-            "skills": [
+            "spells": [
                 {
                     "name": "",
-                    "description": "",
-                    "stats": [
-                        {
-                            "name": "",
-                            "value": null
-                        }
-                    ]
+                    "value": null
                 }
             ],
             "inventory": [
@@ -101,6 +93,27 @@
         }
     ],
     "items": [
+        {
+            "name": "",
+            "description": "",
+            "stats": [
+                {
+                    "name": "",
+                    "value": null
+                }
+            ]
+        }
+    ],
+    "stats": [
+        {
+            "name": "",
+            "range": [
+                null,
+                null
+            ]
+        }
+    ],
+    "spells":[
         {
             "name": "",
             "description": "",
