@@ -1,0 +1,283 @@
+{
+    "places": [
+        {
+            "name": "Village Square",
+            "description": "A small little place, the sky upon the Village is grey and rainy, you see two roads leading to the East and the North of the Square.",
+            "direction": [
+                {
+                    "directionName": "North",
+                    "placeArrival": "BlackSmith Shop Entrance"
+                },
+                {
+                    "directionName": "East",
+                    "placeArrival": "Front of the Bank"
+                }
+            ],
+            "items": [
+                {
+                    "name": "Old Sword",
+                    "number": 1
+                },
+                {
+                    "name": "Great Shield",
+                    "number": 1
+                }
+
+            ],
+            "npcs": [
+                {
+                    "name": "Old Lady",
+                    "number": 1
+                },
+                {
+                    "name": "Old Men",
+                    "number": 1
+                }
+            ]
+        },
+        {
+            "name": "BlackSmith Shop Entrance",
+            "description": "You are in front of the BlackSmith shop, the rain accentuate, and suddenly you hear threatening barking, you look at your left and two Huge Hound maybe a third behind them, the mouth dripping with drool. South of your position, the road to the Village Square, searching with attention to find an escape, you also notice a little road leding to the east",
+            "direction": [
+                {
+                    "directionName": "South",
+                    "placeArrival": "Village Square"
+                },
+                {
+                    "directionName": "East",
+                    "placeArrival": "The old Mansion"
+                }
+            ],
+            "monsters": [
+                {
+                    "name": "Huge Hound",
+                    "number": [2, 3]
+                }
+            ],
+            "items": [
+                {
+                    "name": "Golden Earing",
+                    "number": 1
+                }
+            ]
+        },
+        {
+            "name": "Front of the Bank",
+            "description": "The Bank stand in front of you, a nice looking building, barricaded with planks, the road to the West leads to the Village Square, there is also a road leading North wich probably bring to the old Mansion you see not fay away. When you approach the Bank, you hear a voice: 'Are you lost strangers ? Maybe my boys and me could help you, but you'll have to give us all your valuables items haha', some bandits, staring at you, weapons out start coming at you",
+            "direction": [
+                {
+                    "directionName": "West",
+                    "placeArrival": "Village Square"
+                },
+                {
+                    "directionName": "North",
+                    "placeArrival": "The old Mansion"
+                }
+            ],
+            "monsters": [
+                {
+                    "name": "Bandit",
+                    "number": [2, 3]
+                },
+                {
+                    "name": "Huge Hound",
+                    "number": 1
+                }
+            ]
+        },
+        {
+            "name": "The old Mansion",
+            "description": "A nice looking Mansion",
+            "direction": [
+                {
+                    "directionName": "South",
+                    "placeArrival": "Front of the Bank"
+                },
+                {
+                    "directionName": "West",
+                    "placeArrival": "BlackSmith Shop Entrance"
+                }
+            ]
+        }
+    ],
+    "characters": [
+        {
+            "name": "Aeros",
+            "description": "A tall man with a dark cloak and two short swords in his back",
+            "stats": [
+                {
+                    "name": "DEX",
+                    "value": "17"
+                },
+                {
+                    "name": "CON",
+                    "value": "50"
+                },
+                {
+                    "name": "WIS",
+                    "value": "8"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "Sneak Attack"
+                },
+                {
+                    "name": "Wink"
+                }
+            ],
+            "inventory": [
+                {
+                    "name": "Short Sword",
+                    "number": 2
+                }
+            ],
+            "location": "Village Square"
+        },
+        {
+            "name": "Elenna",
+            "description": "A handsome young elf with some very impressive skills",
+            "stats": [
+                {
+                    "name": "DEX",
+                    "value": "4"
+                },
+                {
+                    "name": "CON",
+                    "value": "70"
+                },
+                {
+                    "name": "WIS",
+                    "value": "15"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "Bear bite"
+                },
+                {
+                    "name": "Wink"
+                }
+            ],
+            "inventory": [
+                {
+                    "name": "Magical Blue ring",
+                    "number": 1
+                }
+            ],
+            "location": "Village Square"
+        }
+    ],
+    "npcs": [
+        {
+            "name": "Old Lady",
+            "description": "An Old Lady with a red dress",
+            "dialogs": ["Be careful here, the city is almost abandonned", "What could bring two aventurers here by this time ?"],
+            "location": "Village Square"
+        },
+        {
+            "name": "Old Men",
+            "description": "An Old Men with a walking stick",
+            "dialogs": ["Ho mylady you're hot af", "If only my wife weren't here i would show you what i can do"],
+            "location": "Village Square"
+        }
+    ],
+    "monsters": [
+        {
+            "name": "Bandit",
+            "description": "A man with a weapon by his side and a threatening look",
+            "stats": [
+                {
+                    "name": "DEX",
+                    "value": "7"
+                },
+                {
+                    "name": "CON",
+                    "value": "30"
+                },
+                {
+                    "name": "WIS",
+                    "value": "7"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "Slash"
+                },
+                {
+                    "name": "Pierce"
+                }
+            ],
+            "inventory": [
+                {
+                    "name": "Gold",
+                    "number": 50
+                }
+            ]
+        },
+        {
+            "name": "Huge Hound",
+            "description": "A huge houd with two scars on the side",
+            "stats": [
+                {
+                    "name": "DEX",
+                    "value": "8"
+                },
+                {
+                    "name": "CON",
+                    "value": "30"
+                },
+                {
+                    "name": "WIS",
+                    "value": "8"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "Bite"
+                },
+                {
+                    "name": "Scratch"
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "name": "",
+            "description": "",
+            "stats": [
+                {
+                    "name": "",
+                    "value": null
+                }
+            ]
+        }
+    ],
+    "stats": [
+        {
+            "name": "DEX",
+            "range": [1, 20]
+        },
+        {
+            "name": "Con",
+            "range": [10, 100]
+        },
+        {
+            "name": "WIS",
+            "range": [1, 20]
+        }
+    ],
+    "spells":[
+        {
+            "name": "",
+            "description": "",
+            "stats": [
+                {
+                    "name": "",
+                    "value": null
+                }
+            ]
+        }
+    ]
+}
