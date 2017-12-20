@@ -3,7 +3,7 @@
 require_once('vendor/autoload.php');
 use RPGManager\Utils\Parser;
 
-$configGame = file_get_contents('config/game.json');
+$configGame = file_get_contents('config/burglar.json');
 $game = json_decode($configGame, true);
 
 $settingsGame = file_get_contents('config/settings.json');

@@ -3,7 +3,7 @@
         {
             "name": "Village Square",
             "description": "A small little place, the sky upon the Village is grey and rainy, you see two roads leading to the East and the North of the Square.",
-            "direction": [
+            "directions": [
                 {
                     "directionName": "North",
                     "placeArrival": "BlackSmith Shop Entrance"
@@ -38,7 +38,7 @@
         {
             "name": "BlackSmith Shop Entrance",
             "description": "You are in front of the BlackSmith shop, the rain accentuate, and suddenly you hear threatening barking, you look at your left and two Huge Hound maybe a third behind them, the mouth dripping with drool. South of your position, the road to the Village Square, searching with attention to find an escape, you also notice a little road leding to the east",
-            "direction": [
+            "directions": [
                 {
                     "directionName": "South",
                     "placeArrival": "Village Square"
@@ -64,7 +64,7 @@
         {
             "name": "Front of the Bank",
             "description": "The Bank stand in front of you, a nice looking building, barricaded with planks, the road to the West leads to the Village Square, there is also a road leading North wich probably bring to the old Mansion you see not fay away. When you approach the Bank, you hear a voice: 'Are you lost strangers ? Maybe my boys and me could help you, but you'll have to give us all your valuables items haha', some bandits, staring at you, weapons out start coming at you",
-            "direction": [
+            "directions": [
                 {
                     "directionName": "West",
                     "placeArrival": "Village Square"
@@ -88,7 +88,7 @@
         {
             "name": "The old Mansion",
             "description": "A nice looking Mansion",
-            "direction": [
+            "directions": [
                 {
                     "directionName": "South",
                     "placeArrival": "Front of the Bank"
@@ -172,14 +172,12 @@
         {
             "name": "Old Lady",
             "description": "An Old Lady with a red dress",
-            "dialogs": ["Be careful here, the city is almost abandonned", "What could bring two aventurers here by this time ?"],
-            "location": "Village Square"
+            "dialog": "Be careful here, the city is almost abandonned"
         },
         {
             "name": "Old Men",
             "description": "An Old Men with a walking stick",
-            "dialogs": ["Ho mylady you're hot af", "If only my wife weren't here i would show you what i can do"],
-            "location": "Village Square"
+            "dialog": "Ho mylady you're hot af"
         }
     ],
     "monsters": [
@@ -203,15 +201,12 @@
             "spells": [
                 {
                     "name": "Slash"
-                },
-                {
-                    "name": "Pierce"
                 }
             ],
             "inventory": [
                 {
-                    "name": "Gold",
-                    "number": 50
+                    "name": "Leather armor",
+                    "number": [1, 2]
                 }
             ]
         },
@@ -244,12 +239,66 @@
     ],
     "items": [
         {
-            "name": "",
-            "description": "",
+            "name": "Leather armor",
+            "description": "A piece of leather armor",
             "stats": [
                 {
-                    "name": "",
-                    "value": null
+                    "name": "CON",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "Short Sword",
+            "description": "A short sharpened sword",
+            "stats": [
+                {
+                    "name": "DEX",
+                    "value": 3
+                },
+                {
+                    "name": "CON",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "name": "Magical Blue ring",
+            "description": "A beautiful ring with a bear",
+            "stats": [
+                {
+                    "name": "WIS",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "name": "Old Sword",
+            "description": "a old great sword",
+            "stats": [
+                {
+                    "name": "DEX",
+                    "value": 2
+                }
+            ]
+        },
+        {
+            "name": "Great Shield",
+            "description": "A Shield with a wolf on it",
+            "stats": [
+                {
+                    "name": "CON",
+                    "value": 7
+                }
+            ]
+        },
+        {
+            "name": "Golden Earing",
+            "description": "A golden earing",
+            "stats": [
+                {
+                    "name": "WIS",
+                    "value": 3
                 }
             ]
         }
@@ -260,22 +309,86 @@
             "range": [1, 20]
         },
         {
-            "name": "Con",
-            "range": [10, 100]
+            "name": "CON",
+            "range": [1, 100]
         },
         {
             "name": "WIS",
             "range": [1, 20]
+        },
+        {
+            "name": "regular_damage",
+            "range": [5, 40]
         }
     ],
     "spells":[
         {
-            "name": "",
-            "description": "",
+            "name": "Sneak Attack",
+            "description": "You find your way into your opponents protection and wound him serverly",
+            "type": "damage",
             "stats": [
                 {
-                    "name": "",
-                    "value": null
+                    "name": "regular_damage",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "Wink",
+            "description": "You wink at your friend, immediatly feeling better and more wise",
+            "type": "buff",
+            "stats": [
+                {
+                    "name": "WIS",
+                    "value": 2
+                },
+                {
+                    "name": "CON",
+                    "value": 7
+                }
+            ]
+        },
+        {
+            "name": "Bear bite",
+            "description": "Your mouth gain power and strengh and you bite severly your opponement",
+            "type": "damage",
+            "stats": [
+                {
+                    "name": "regular_damage",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "Slash",
+            "description": "You make a great hit with your weapon",
+            "type": "damage",
+            "stats": [
+                {
+                    "name": "regular_damage",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "Bite",
+            "description": "You catch your opponment legs and hurt him a little bit, reducing his ability to move easily",
+            "type": "debuff",
+            "stats": [
+                {
+                    "name": "DEX",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "name": "Scratch",
+            "description": "you scratch your opponement, dealing some damage",
+            "type": "damage",
+            "stats": [
+                {
+                    "name": "regular_damage",
+                    "value": 5
                 }
             ]
         }

@@ -3,7 +3,7 @@
         {
             "name": "",
             "description": "",
-            "direction": [
+            "directions": [
                 {
                     "directionName": "",
                     "placeArrival": ""
@@ -63,8 +63,7 @@
         {
             "name": "",
             "description": "",
-            "dialogs": [],
-            "location": ""
+            "dialogs": []
         }
     ],
     "monsters": [
