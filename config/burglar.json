@@ -306,19 +306,23 @@
     "stats": [
         {
             "name": "DEX",
-            "range": [1, 20]
+            "range": [1, 20],
+            "description": ""
         },
         {
             "name": "CON",
-            "range": [1, 100]
+            "range": [1, 100],
+            "description": "A banale description"
         },
         {
             "name": "WIS",
-            "range": [1, 20]
+            "range": [1, 20],
+            "description": "A banale description"
         },
         {
             "name": "regular_damage",
-            "range": [5, 40]
+            "range": [5, 40],
+            "description": "A banale description"
         }
     ],
     "spells":[

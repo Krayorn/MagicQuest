@@ -1,6 +1,7 @@
 <?php
 
 require_once('vendor/autoload.php');
+require_once('./config.php');
 
 use RPGManager\Utils\Parser;
 
@@ -30,5 +31,5 @@ $game = json_decode($configGame, true);
 $settingsGame = file_get_contents('config/settings.json');
 $settings = json_decode($settingsGame, true);
 
-Parser::generateModelsDb($game, $settings);
+Parser::generateModelsDb($game, $settings, $entityManager);
 
