@@ -13,9 +13,9 @@ $conn = [
     'driver' => 'pdo_mysql',
     'host' => '127.0.0.1',
     'port' => null,
-    'dbname' => 'php_rpgmanager',
-    'user' => 'php',
-    'password' => 'php'
+    'dbname' => 'dbname',
+    'user' => 'user',
+    'password' => 'password'
 ];
 
 $entityManager = EntityManager::create($conn, $config);
