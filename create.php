@@ -20,6 +20,14 @@ foreach ($files as $file) {
     file_put_contents("src/Entity/" . $file, $replaceStr);
 }
 
+$mysqli = new mysqli($conn['host'], $conn['user'], $conn['password'], $conn['dbname']);
+if ($result = $mysqli->query("SHOW TABLES")) {
+    echo "Dropping " . $conn['dbname'] . " database \n";
+    $mysqli->query('DROP DATABASE ' . $conn['dbname']);
+    echo "Creating a new " . $conn['dbname'] . " database \n\n";
+    $mysqli->query('CREATE DATABASE ' . $conn['dbname']);
+}
+
 $createSqlDb = shell_exec('vendor\bin\doctrine orm:schema-tool:create --dump-sql');
 echo $createSqlDb;
 $createDb = shell_exec('vendor\bin\doctrine orm:schema-tool:create');
