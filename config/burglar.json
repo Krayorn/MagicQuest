@@ -187,15 +187,15 @@
             "stats": [
                 {
                     "name": "DEX",
-                    "value": "7"
+                    "value": 7
                 },
                 {
                     "name": "CON",
-                    "value": "30"
+                    "value": 30
                 },
                 {
                     "name": "WIS",
-                    "value": "7"
+                    "value": 7
                 }
             ],
             "spells": [
@@ -216,15 +216,15 @@
             "stats": [
                 {
                     "name": "DEX",
-                    "value": "8"
+                    "value": 8
                 },
                 {
                     "name": "CON",
-                    "value": "30"
+                    "value": 30
                 },
                 {
                     "name": "WIS",
-                    "value": "8"
+                    "value": 8
                 }
             ],
             "spells": [

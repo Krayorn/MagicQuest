@@ -12,19 +12,13 @@
             "monsters": [
                 {
                     "name": "",
-                    "number": [
-                        null,
-                        null
-                    ]
+                    "number": [null, null]
                 }
             ],
             "items": [
                 {
                     "name": "",
-                    "number": [
-                        null,
-                        null
-                    ]
+                    "number": [null, null]
                 }
             ],
             "npcs": [
@@ -63,7 +57,7 @@
         {
             "name": "",
             "description": "",
-            "dialogs": []
+            "dialog": ""
         }
     ],
     "monsters": [
@@ -78,14 +72,13 @@
             ],
             "spells": [
                 {
-                    "name": "",
-                    "value": null
+                    "name": ""
                 }
             ],
             "inventory": [
                 {
                     "name": "",
-                    "number": null
+                    "number": [null, null]
                 }
             ]
         }
@@ -105,16 +98,15 @@
     "stats": [
         {
             "name": "",
-            "range": [
-                null,
-                null
-            ]
+            "description": "",
+            "range": [null, null]
         }
     ],
     "spells":[
         {
             "name": "",
             "description": "",
+            "type": "",
             "stats": [
                 {
                     "name": "",
