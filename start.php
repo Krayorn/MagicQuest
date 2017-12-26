@@ -3,6 +3,6 @@
 require_once('vendor/autoload.php');
 require_once('./config.php');
 
-use RPGManager\Model\Game;
+use RPGManager\Model\RegularMode;
 
-Game::startGame($entityManager);
+RegularMode::startGame($entityManager);
