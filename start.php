@@ -5,4 +5,7 @@ require_once('./config.php');
 
 use RPGManager\Model\RegularMode;
 
-RegularMode::startGame($entityManager);
+$settingsGame = file_get_contents('config/settings.json');
+$settings = json_decode($settingsGame, true);
+
+RegularMode::startGame($entityManager, $settings);
