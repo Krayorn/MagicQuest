@@ -1,4 +1,4 @@
 {
-    "initiativeCarac": "DEX",
-    "StatForHealth": "CON"
+    "statForInititative": "DEX",
+    "statForHealth": "CON"
 }
