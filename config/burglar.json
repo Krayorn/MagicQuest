@@ -362,7 +362,7 @@
             "stats": [
                 {
                     "name": "regular_damage",
-                    "value": 5
+                    "value": "WIS"
                 }
             ]
         },
