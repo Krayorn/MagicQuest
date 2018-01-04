@@ -5,6 +5,9 @@ require_once('./config.php');
 
 use RPGManager\Utils\Parser;
 
+$configGame = file_get_contents('config/school.json');
+$settingsGame = file_get_contents('config/schoolSettings.json');
+
 if (file_exists('./src/Entity')) {
     echo "Deleting src/Entity \n";
     $rmEntity = shell_exec('rm -rf ./src/Entity*');
@@ -46,12 +49,7 @@ if (strtoupper(substr(PHP_OS, 0, 3)) !== 'WIN') {
     echo "Done!";
 }
 
-
-
-$configGame = file_get_contents('config/burglar.json');
 $game = json_decode($configGame, true);
-
-$settingsGame = file_get_contents('config/settings.json');
 $settings = json_decode($settingsGame, true);
 
 Parser::generateModelsDb($game, $settings, $entityManager);

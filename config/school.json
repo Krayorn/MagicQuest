@@ -1,0 +1,1016 @@
+{
+    "places": [
+        {
+            "name": "Hall du second étage",
+            "description": "Une grande piece assez degagée, qui permet d'accéder aux premières salles de classes, au bureau de la pédagogie, à la cafétaria et aux toilettes du deuxième étage.",
+            "directions": [
+                {
+                    "directionName": "201",
+                    "placeArrival": "201"
+                },
+                {
+                    "directionName": "pédagogie",
+                    "placeArrival": "Bureau de la pédagogie"
+                },
+                {
+                    "directionName": "droite",
+                    "placeArrival": "La salle mystique sur le côté"
+                },
+                {
+                    "directionName": "toilettes",
+                    "placeArrival": "Toilettes du second étage"
+                },
+                {
+                    "directionName": "cafétaria",
+                    "placeArrival": "Cafétaria"
+                }
+            ]
+        },
+        {
+            "name": "201",
+            "description": "Une grande salle de cours, la légende raconte qu'elle est hantée par les Design qui ont échoués à rendre des maquettes à temps.",
+            "directions": [
+                {
+                    "directionName": "hall",
+                    "placeArrival": "Hall du second étage"
+                }
+            ]
+        },
+        {
+            "name": "Bureau de la pédagogie",
+            "description": "Une piece avec quatre bureaux, repaire de la pédagogie, nombreux sont les élèves à s'y être aventurés, peu sont revenus...",
+            "directions": [
+                {
+                    "directionName": "hall",
+                    "placeArrival": "Hall du second étage"
+                }
+            ]
+        },
+        {
+            "name": "La salle mystique sur le côté",
+            "description": "Nul ne sait ce qu'il s'y déroule, il paraît que c'est ici qu'on sacrifie les mauvais élèves.",
+            "directions": [
+                {
+                    "directionName": "hall",
+                    "placeArrival": "Hall du second étage"
+                }
+            ]
+        },
+        {
+            "name": "Toilettes du second étage",
+            "description": "Des toilettes assez simple, avec de l'eau fraîche pour se désalterer.",
+            "directions": [
+                {
+                    "directionName": "hall",
+                    "placeArrival": "Hall du second étage"
+                }
+            ]
+        },
+        {
+            "name": "Cafétaria",
+            "description": "Une zone où les élèves peuvent se poser entre deux cours ou à midi pour manger entre le Hall et le couloir du second étage.",
+            "directions": [
+                {
+                    "directionName": "hall",
+                    "placeArrival": "Hall du second étage"
+                },
+                {
+                    "directionName": "couloir",
+                    "placeArrival": "Couloir du deuxième étage"
+                }
+            ]
+        },
+        {
+            "name": "Couloir du deuxième étage",
+            "description": "Un long couloir avec quelques tables hautes, il permet d'accéder à trois salles de classes et à la terrasse.",
+            "directions": [
+                {
+                    "directionName": "caféteria",
+                    "placeArrival": "Cafétaria"
+                },
+                {
+                    "directionName": "203",
+                    "placeArrival": "203"
+                },
+                {
+                    "directionName": "204",
+                    "placeArrival": "204"
+                },
+                {
+                    "directionName": "205",
+                    "placeArrival": "205"
+                },
+                {
+                    "directionName": "terrasse",
+                    "placeArrival": "Terrasse extérieure"
+                }
+            ]
+        },
+        {
+            "name": "203",
+            "description": "Une salle de classe assez basique, plusieurs tables, un tableau et un projecteur, elle empeste le kebab et le McDo.",
+            "directions": [
+                {
+                    "directionName": "couloir",
+                    "placeArrival": "Couloir du deuxième étage"
+                }
+            ]
+        },
+        {
+            "name": "204",
+            "description": "Une salle de classe de taille moyenne, assez loin du bureau de la pédagogie et proche de la Terasse, c'est un endroit assez prisé par les étudiants qui restent travailler le soir.",
+            "directions": [
+                {
+                    "directionName": "couloir",
+                    "placeArrival": "Couloir du deuxième étage"
+                }
+            ]
+        },
+        {
+            "name": "205",
+            "description": "Une salle de classe assez mystique, le projecteur ne fonctionne qu'une fois de temps en temps.",
+            "directions": [
+                {
+                    "directionName": "couloir",
+                    "placeArrival": "Couloir du deuxième étage"
+                }
+            ]
+        },
+        {
+            "name": "Terrasse extérieure",
+            "description": "La zone fumeur par exellence, elle offre une petite vue sur la cour en contrebas, et les quelques bancs permettent de s'y reposer lorsqu'il n'y fait pas trop froid.",
+            "directions": [
+                {
+                    "directionName": "couloir",
+                    "placeArrival": "Couloir du deuxième étage"
+                }
+            ]
+        }
+    ],
+    "characters": [
+        {
+            "name": "Nerd",
+            "description": "Bah, un Nerd quoi, yep, rien de plus.",
+            "stats": [
+                {
+                    "name": "assiduité",
+                    "value": 80
+                },
+                {
+                    "name": "autorité",
+                    "value": 20
+                },
+                {
+                    "name": "moyenne_générale",
+                    "value": 15
+                },
+                {
+                    "name": "golang",
+                    "value": 20
+                },
+                {
+                    "name": "javascript",
+                    "value": 15
+                },
+                {
+                    "name": "php",
+                    "value": 15
+                },
+                {
+                    "name": "vivacité",
+                    "value": 90
+                }
+            ],
+            "spells": [
+                {
+                    "name": "Langage technique"
+                },
+                {
+                    "name": "Puissance de Jquery"
+                },
+                {
+                    "name": "Golang channels"
+                }
+            ],
+            "inventory": [
+
+            ],
+            "location": "Hall du second étage"
+        },
+        {
+            "name": "FrontEndDev",
+            "description": "Je suis full stack Js, et j'ai déjà mis en ligne en site via un tutoriel OpenClassrooms.",
+            "stats": [
+                {
+                    "name": "assiduité",
+                    "value": 80
+                },
+                {
+                    "name": "autorité",
+                    "value": 20
+                },
+                {
+                    "name": "moyenne_générale",
+                    "value": 15
+                },
+                {
+                    "name": "golang",
+                    "value": 15
+                },
+                {
+                    "name": "javascript",
+                    "value": 20
+                },
+                {
+                    "name": "php",
+                    "value": 15
+                },
+                {
+                    "name": "vivacité",
+                    "value": 80
+                }
+            ],
+            "spells": [
+                {
+                    "name": "Langage technique"
+                },
+                {
+                    "name": "Puissance de Jquery"
+                },
+                {
+                    "name": "Pair Programming golang"
+                },
+                {
+                    "name": "Pair Programming php"
+                }
+            ],
+            "inventory": [
+
+            ],
+            "location": "Hall du second étage"
+        },
+        {
+            "name": "BackEndDev",
+            "description": "Je suis full Stack dev, fan de php, et j'ai déjà centré verticalement un élément en CSS.",
+            "stats": [
+                {
+                    "name": "assiduité",
+                    "value": 80
+                },
+                {
+                    "name": "autorité",
+                    "value": 20
+                },
+                {
+                    "name": "moyenne_générale",
+                    "value": 15
+                },
+                {
+                    "name": "golang",
+                    "value": 15
+                },
+                {
+                    "name": "javascript",
+                    "value": 15
+                },
+                {
+                    "name": "php",
+                    "value": 20
+                },
+                {
+                    "name": "vivacité",
+                    "value": 80
+                }
+            ],
+            "spells": [
+                {
+                    "name": "Langage technique"
+                },
+                {
+                    "name": "Puissance de Jquery"
+                },
+                {
+                    "name": "Code illisible"
+                }
+            ],
+            "inventory": [
+
+            ],
+            "location": "Hall du second étage"
+        }
+    ],
+    "monsters": [
+        {
+            "name": "Fumeur",
+            "description": "Un fumeur, encore la clope a la main, prêt a se battre dès qu'il aura récuperer son souffle.",
+            "stats": [
+                {
+                    "name": "assiduité",
+                    "value": 75
+                },
+                {
+                    "name": "autorité",
+                    "value": 20
+                },
+                {
+                    "name": "moyenne_générale",
+                    "value": 15
+                },
+                {
+                    "name": "golang",
+                    "value": 5
+                },
+                {
+                    "name": "javascript",
+                    "value": 5
+                },
+                {
+                    "name": "php",
+                    "value": 5
+                },
+                {
+                    "name": "vivacité",
+                    "value": 60
+                }
+            ],
+            "spells": [
+                {
+                    "name": "crachage de fumée"
+                },
+                {
+                    "name": "fausse accusation"
+                },
+                {
+                    "name": "moquerie"
+                },
+                {
+                    "name": "coup de pied retourné"
+                }
+            ]
+        },
+        {
+            "name": "Directrice",
+            "description": "La directrice de l'école.",
+            "stats": [
+                {
+                    "name": "assiduité",
+                    "value": 100
+                },
+                {
+                    "name": "autorité",
+                    "value": 60
+                },
+                {
+                    "name": "moyenne_générale",
+                    "value": 20
+                },
+                {
+                    "name": "golang",
+                    "value": 10
+                },
+                {
+                    "name": "javascript",
+                    "value": 10
+                },
+                {
+                    "name": "php",
+                    "value": 10
+                },
+                {
+                    "name": "vivacité",
+                    "value": 80
+                }
+            ],
+            "spells": [
+                {
+                    "name": "crachage de fumée"
+                },
+                {
+                    "name": "conseil de discipline"
+                },
+                {
+                    "name": "Je suis dans le staff !"
+                },
+                {
+                    "name": "coup de pied retourné"
+                },
+                {
+                    "name": "stage non accepté"
+                },
+                {
+                    "name": "Rendez-vous dans mon bureau !"
+                },
+                {
+                    "name": "Va me faire un café !"
+                }
+            ]
+        },
+        {
+            "name": "Cheffe de la pédagogie",
+            "description": "La leader de la pédagogie, redoutable et menacante, on raconte qu'elle aurait tué des deuxièmes années suite à une conférence manquée.",
+            "stats": [
+                {
+                    "name": "assiduité",
+                    "value": 100
+                },
+                {
+                    "name": "autorité",
+                    "value": 55
+                },
+                {
+                    "name": "moyenne_générale",
+                    "value": 20
+                },
+                {
+                    "name": "golang",
+                    "value": 10
+                },
+                {
+                    "name": "javascript",
+                    "value": 10
+                },
+                {
+                    "name": "php",
+                    "value": 10
+                },
+                {
+                    "name": "vivacité",
+                    "value": 75
+                }
+            ],
+            "spells": [
+                {
+                    "name": "fausse accusation"
+                },
+                {
+                    "name": "conseil de discipline"
+                },
+                {
+                    "name": "Je suis dans le staff !"
+                },
+                {
+                    "name": "coup de pied retourné"
+                },
+                {
+                    "name": "stage non accepté"
+                },
+                {
+                    "name": "Rendez-vous dans mon bureau !"
+                },
+                {
+                    "name": "Va me faire un café !"
+                }
+            ]
+        },
+        {
+            "name": "Guerriere de la pédagogie",
+            "description": "Fidèles soldats, prêtes a soutenir leur cheffe au combat.",
+            "stats": [
+                {
+                    "name": "assiduité",
+                    "value": 100
+                },
+                {
+                    "name": "autorité",
+                    "value": 50
+                },
+                {
+                    "name": "moyenne_générale",
+                    "value": 15
+                },
+                {
+                    "name": "golang",
+                    "value": 5
+                },
+                {
+                    "name": "javascript",
+                    "value": 5
+                },
+                {
+                    "name": "php",
+                    "value": 5
+                },
+                {
+                    "name": "vivacité",
+                    "value": 70
+                }
+            ],
+            "spells": [
+                {
+                    "name": "crachage de fumée"
+                },
+                {
+                    "name": "fausse accusation"
+                },
+                {
+                    "name": "Je suis dans le staff !"
+                },
+                {
+                    "name": "stage non accepté"
+                }
+            ]
+        },
+        {
+            "name": "Chef du BDE",
+            "description": "Un premiere année qui dirige le BDE et dont le rêve et de mettre un micro-ondes dans la cafétaria.",
+            "stats": [
+                {
+                    "name": "assiduité",
+                    "value": 85
+                },
+                {
+                    "name": "autorité",
+                    "value": 30
+                },
+                {
+                    "name": "moyenne_générale",
+                    "value": 15
+                },
+                {
+                    "name": "golang",
+                    "value": 5
+                },
+                {
+                    "name": "javascript",
+                    "value": 5
+                },
+                {
+                    "name": "php",
+                    "value": 5
+                },
+                {
+                    "name": "vivacité",
+                    "value": 50
+                }
+            ],
+            "spells": [
+                {
+                    "name": "fausse accusation"
+                },
+                {
+                    "name": "moquerie"
+                },
+                {
+                    "name": "Je suis dans le staff !"
+                },
+                {
+                    "name": "Invitation à une soirée deguisée 'année 70-80'"
+                },
+                {
+                    "name": "Cela sera remonté à la pédagogie !"
+                }
+            ]
+        },
+        {
+            "name": "Trésorier",
+            "description": "Un élève au regard fouineur, on entends le bruit des pièces dans ses poches lorsqu'il se déplace.",
+            "stats": [
+                {
+                    "name": "assiduité",
+                    "value": 85
+                },
+                {
+                    "name": "autorité",
+                    "value": 25
+                },
+                {
+                    "name": "moyenne_générale",
+                    "value": 17
+                },
+                {
+                    "name": "golang",
+                    "value": 5
+                },
+                {
+                    "name": "javascript",
+                    "value": 5
+                },
+                {
+                    "name": "php",
+                    "value": 5
+                },
+                {
+                    "name": "vivacité",
+                    "value": 50
+                }
+            ],
+            "spells": [
+                {
+                    "name": "fausse accusation"
+                },
+                {
+                    "name": "moquerie"
+                },
+                {
+                    "name": "Je suis dans le staff !"
+                },
+                {
+                    "name": "Cela sera remonté à la pédagogie !"
+                },
+                {
+                    "name": "Financement participatif !"
+                }
+            ]
+        },
+        {
+            "name": "élève modele",
+            "description": "Un premiere année inconnu au bataillon, bien coiffé dans des vetements impeccables, il a couru pour être sur d'arriver 30 minutes en avance pour la réunion.",
+            "stats": [
+                {
+                    "name": "assiduité",
+                    "value": 100
+                },
+                {
+                    "name": "autorité",
+                    "value": 15
+                },
+                {
+                    "name": "moyenne_générale",
+                    "value": 20
+                },
+                {
+                    "name": "golang",
+                    "value": 10
+                },
+                {
+                    "name": "javascript",
+                    "value": 10
+                },
+                {
+                    "name": "php",
+                    "value": 10
+                },
+                {
+                    "name": "vivacité",
+                    "value": 50
+                }
+            ],
+            "spells": [
+                {
+                    "name": "moquerie"
+                },
+                {
+                    "name": "Tutorat"
+                },
+                {
+                    "name": "Seulement 19 ?"
+                }
+            ]
+        },
+        {
+            "name": "Cancre",
+            "description": "Un premiere année inconnu au bataillon, l'air perdu, il a pris son temps pour être sur d'arriver 30 minutes en retard pour la réunion.",
+            "stats": [
+                {
+                    "name": "assiduité",
+                    "value": 55
+                },
+                {
+                    "name": "autorité",
+                    "value": 20
+                },
+                {
+                    "name": "moyenne_générale",
+                    "value": 10
+                },
+                {
+                    "name": "golang",
+                    "value": 0
+                },
+                {
+                    "name": "javascript",
+                    "value": 0
+                },
+                {
+                    "name": "php",
+                    "value": 0
+                },
+                {
+                    "name": "vivacité",
+                    "value": 60
+                }
+            ],
+            "spells": [
+                {
+                    "name": "fausse accusation"
+                },
+                {
+                    "name": "crachage de fumée"
+                },
+                {
+                    "name": "moquerie"
+                },
+                {
+                    "name": "Soirée mousse ?"
+                }
+            ]
+        }
+    ],
+    "spells": [
+        {
+            "name": "Golang channels",
+            "description": "Vous utilisez les channels que vous fournit golang pour attaquer depuis plusieurs goroutines simultanément.",
+            "type": "damage",
+            "stats": [
+                {
+                    "name": "dégats",
+                    "value": "moyenne_générale"
+                },
+                {
+                    "name": "dégats",
+                    "value": "golang"
+                }
+            ]
+        },
+        {
+            "name": "Puissance de Jquery",
+            "description": "$('friend').heal().improveAlertness()",
+            "type": "buff",
+            "stats": [
+                {
+                    "name": "assiduité",
+                    "value": "javascript"
+                },
+                {
+                    "name": "vivacité",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "Pair Programming golang",
+            "description": "Vous aidez votre cible à mieux comprendre le fonctionnement des langages de programmation, il s'améliore en golang !",
+            "type": "buff",
+            "stats": [
+                {
+                    "name": "golang",
+                    "value": "javascript"
+                }
+            ]
+        },
+        {
+            "name": "Pair Programming php",
+            "description": "Vous aidez votre cible à mieux comprendre le fonctionnement des langages de programmation, il s'améliore en golang !",
+            "type": "buff",
+            "stats": [
+                {
+                    "name": "php",
+                    "value": "javascript"
+                }
+            ]
+        },
+        {
+            "name": "Code illisible",
+            "description": "Vous écrivez un programme non concaténé, melant camelCase et l'utilisation des underscore, sans consistance.",
+            "type": "debuff",
+            "stats": [
+                {
+                    "name": "autorité",
+                    "value": 10
+                },
+                {
+                    "name": "vivacité",
+                    "value": "php"
+                }
+            ]
+        },
+        {
+            "name": "Langage technique",
+            "description": "Vous employez des mots trés technique pour embrouiller vos adversaires, ils perdent leur moyen et commence a se gratter la tête, pleins d'incomprehension, en vous écoutant.",
+            "type": "debuff",
+            "stats": [
+                {
+                    "name": "autorité",
+                    "value": "php"
+                },
+                {
+                    "name": "moyenne_générale",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "crachage de fumée",
+            "description": "Vous crachez de la fumée à la tête de votre adversaire, le faisant tousser au augmentant ses chances de cancer de 15%",
+            "type": "damage",
+            "stats": [
+                {
+                    "name": "dégats",
+                    "value": 15
+                }
+            ]
+        },
+        {
+            "name": "fausse accusation",
+            "description": "Vous criez sur votre adversaire, l'accusant d'un méfait qu'il n'a pas commis",
+            "type": "damage",
+            "stats": [
+                {
+                    "name": "dégats",
+                    "value": "autorité"
+                }
+            ]
+        },
+        {
+            "name": "moquerie",
+            "description": "'Tu as un demi-cerveau qui fonctionne à moitié !",
+            "type": "debuff",
+            "stats": [
+                {
+                    "name": "autorité",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "conseil de discipline",
+            "description": "Vous convoquez un conseil de discipline contre votre adversaire.",
+            "type": "damage",
+            "stats": [
+                {
+                    "name": "dégats",
+                    "value": "autorité"
+                }
+            ]
+        },
+        {
+            "name": "Je suis dans le staff !",
+            "description": "Vous pointez votre badge pour montrer que vous travaillez dans le staff de l'école.",
+            "type": "buff",
+            "stats": [
+                {
+                    "name": "autorité",
+                    "value": 15
+                }
+            ]
+        },
+        {
+            "name": "coup de pied retourné",
+            "description": "Un grand coup de pied retourné effectué avec classe.",
+            "type": "damage",
+            "stats": [
+                {
+                    "name": "dégats",
+                    "value": 17
+                }
+            ]
+        },
+        {
+            "name": "stage non accepté",
+            "description": "Vous riez au nez de votre adversaire, lui faisant remarquer que vous venez de refusez son stage.",
+            "type": "damage",
+            "stats": [
+                {
+                    "name": "dégats",
+                    "value": "moyenne_générale"
+                }
+            ]
+        },
+        {
+            "name": "Rendez-vous dans mon bureau !",
+            "description": "Vous convoquez votre adversaire dans votre bureau pour lui parler de ses notes",
+            "type": "debuff",
+            "stats": [
+                {
+                    "name": "autorité",
+                    "value": 10
+                },
+                {
+                    "name": "vivacité",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "Va me faire un café !",
+            "description": "Vous ordonnez à votre adversaire de vous faire un café.",
+            "type": "debuff",
+            "stats": [
+                {
+                    "name": "autorité",
+                    "value": 5
+                },
+                {
+                    "name": "vivacité",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "Invitation à une soirée deguisée 'année 70-80'",
+            "description": "Vous proposez à votre adversaire de participer à votre prochaine soirée, deguisé en Elton John. C'est terriblement efficace.",
+            "type": "debuff",
+            "stats": [
+                {
+                    "name": "vivacité",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "Cela sera remonté à la pédagogie !",
+            "description": "Vous menacez votre adversaire de tout raconter à votre mam.. à la pédagogie, but what ? Are you 5 ?",
+            "type": "damage",
+            "stats": [
+                {
+                    "name": "dégats",
+                    "value": "autorité"
+                }
+            ]
+        },
+        {
+            "name": "Financement participatif !",
+            "description": "Vous demandez 5 euros à votre adversaire pour acheter un micro-ondes.",
+            "type": "debuff",
+            "stats": [
+                {
+                    "name": "vivacité",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "Tutorat",
+            "description": "Vous proposez d'aider vos adversaires à améliorer leur niveau en Anglais.",
+            "type": "damage",
+            "stats": [
+                {
+                    "name": "dégats",
+                    "value": "moyenne_générale"
+                }
+            ]
+        },
+        {
+            "name": "Seulement 19 ?",
+            "description": "Vous vous plaignez de n'avoir eu que 19 à votre dernière interrogation.",
+            "type": "debuff",
+            "stats": [
+                {
+                    "name": "moyenne_générale",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "Soirée mousse ?",
+            "description": "Vous proposez une soirée mousse pour motiver les troupes.",
+            "type": "buff",
+            "stats": [
+                {
+                    "name": "vivacité",
+                    "value": 5
+                },
+                {
+                    "name": "autorité",
+                    "value": 5
+                },
+                {
+                    "name": "moyenne_générale",
+                    "value": 3
+                }
+            ]
+        }
+    ],
+    "stats": [
+        {
+            "name": "assiduité",
+            "range": [0, 200],
+            "description": "Cette valeure représente votre pourcentage de presence, si ce pourcentage atteint 0, vous mourrez ou pire ... vous serez expulsé de l'école."
+        },
+        {
+            "name": "autorité",
+            "range": [0, 200],
+            "description": "Cela représente votre capacité à utiliser des compétences trés speciales."
+        },
+        {
+            "name": "moyenne_générale",
+            "range": [0, 200],
+            "description": "Votre moyenne générale vous permet de vous défendre contre la pédagogie et les professeurs de manière correcte."
+        },
+        {
+            "name": "golang",
+            "range": [0, 200],
+            "description": "Votre puissance en golang vous permet d'utiliser certains pouvoirs trés obscurs causant des dégats incommensurables."
+        },
+        {
+            "name": "javascript",
+            "range": [0, 200],
+            "description": "Votre maîtrise de javascript et de ses innombrables frameworks vous permettra d'améliorer vos caractéristiques et de soutenir vos alliés."
+        },
+        {
+            "name": "php",
+            "range": [0, 200],
+            "description": "Le php vous ouvre les portes d'une puissance trés ancienne, affaiblissant vos ennemis pour vous permettre de les abattre."
+        },
+        {
+            "name": "vivacité",
+            "range": [0, 200],
+            "description": "Votre capacité à agir rapidement."
+        },
+        {
+            "name": "dégats",
+            "range": [0, 200],
+            "description": "Des dégats normaux."
+        }
+    ]
+}
