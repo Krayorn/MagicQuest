@@ -24,6 +24,12 @@
                     "directionName": "cafetaria",
                     "placeArrival": "Cafétaria"
                 }
+            ],
+            "npcs": [
+                {
+                    "name": "Designer sans inspiration",
+                    "number": 1
+                }
             ]
         },
         {
@@ -110,6 +116,18 @@
                     "directionName": "couloir",
                     "placeArrival": "Couloir du deuxième étage"
                 }
+            ],
+            "npcs": [
+                {
+                    "name": "Designer perdu",
+                    "number": 1
+                }
+            ],
+            "items": [
+                {
+                    "name": "Tasse de cafe",
+                    "number": 3
+                }
             ]
         },
         {
@@ -146,6 +164,16 @@
                     "directionName": "couloir",
                     "placeArrival": "Couloir du deuxième étage"
                 }
+            ],
+            "npcs": [
+                {
+                    "name": "Market travaillant",
+                    "number": 1
+                },
+                {
+                    "name": "Market pas trés malin",
+                    "number": 1
+                }
             ]
         },
         {
@@ -156,6 +184,12 @@
                     "directionName": "couloir",
                     "placeArrival": "Couloir du deuxième étage"
                 }
+            ],
+            "items": [
+                {
+                    "name": "codes presences pirates",
+                    "number": 5
+                }
             ]
         },
         {
@@ -165,6 +199,16 @@
                 {
                     "directionName": "couloir",
                     "placeArrival": "Couloir du deuxième étage"
+                }
+            ],
+            "items": [
+                {
+                    "name": "Livre de programmation",
+                    "number": 1
+                },
+                {
+                    "name": "Livre avance de golang",
+                    "number": 1
                 }
             ]
         },
@@ -181,6 +225,12 @@
                 {
                     "name": "Fumeur",
                     "number": 3
+                }
+            ],
+            "items": [
+                {
+                    "name": "le hacking pour les nuls",
+                    "number": 2
                 }
             ]
         }
@@ -384,6 +434,12 @@
                 {
                     "name": "coup de pied retourne"
                 }
+            ],
+            "inventory": [
+                {
+                    "name": "morceau de gouter",
+                    "number": 1
+                }
             ]
         },
         {
@@ -440,6 +496,12 @@
                 },
                 {
                     "name": "Va me faire un cafe"
+                }
+            ],
+            "inventory": [
+                {
+                    "name": "Badge du staff",
+                    "number": 1
                 }
             ]
         },
@@ -498,6 +560,12 @@
                 {
                     "name": "Va me faire un cafe"
                 }
+            ],
+            "inventory": [
+                {
+                    "name": "Badge du staff",
+                    "number": 1
+                }
             ]
         },
         {
@@ -545,6 +613,12 @@
                 },
                 {
                     "name": "stage non accepte"
+                }
+            ],
+            "inventory": [
+                {
+                    "name": "Badge du staff",
+                    "number": 1
                 }
             ]
         },
@@ -596,6 +670,12 @@
                 },
                 {
                     "name": "Cela sera remonte a la pedagogie"
+                }
+            ],
+            "inventory": [
+                {
+                    "name": "Badge du staff",
+                    "number": 1
                 }
             ]
         },
@@ -1009,6 +1089,90 @@
             ]
         }
     ],
+    "items": [
+        {
+            "name": "Tasse de cafe",
+            "description": "Une tasse de café, rien de mieux pour se réveiller",
+            "stats": [
+                {
+                    "name": "vivacité",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "Badge du staff",
+            "description": "Un badge du staff de l'école, rien de mieux pour vous donner un peu d'autorité.",
+            "stats": [
+                {
+                    "name": "autorité",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "Livre de programmation",
+            "description": "Un livre parlant de différent langages de programmation.",
+            "stats": [
+                {
+                    "name": "php",
+                    "value": 5
+                },
+                {
+                    "name": "javascript",
+                    "value": 5
+                },
+                {
+                    "name": "golang",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "Livre avance de golang",
+            "description": "Un livre parlant de certains points précis en golang, écrit par T.Solignac.",
+            "stats": [
+                {
+                    "name": "golang",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "codes presences pirates",
+            "description": "Des codes présences piratées, un bon moyen de regagner un peu d'assiduité !",
+            "stats": [
+                {
+                    "name": "assiduité",
+                    "value": 5
+                },
+                {
+                    "name": "autorité",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "le hacking pour les nuls",
+            "description": "Un livre vous permettant de hacker l'intranet de l'école, pour augmenter votre taux d'assiduité !",
+            "stats": [
+                {
+                    "name": "assiduité",
+                    "value": 25
+                }
+            ]
+        },
+        {
+            "name": "morceau de gouter",
+            "description": "Un morceau de gouter volé a un designer, peut etre utilisé pour soudoyer un responsable afin d'augmenter son assiduité.",
+            "stats": [
+                {
+                    "name": "assiduité",
+                    "value": 5
+                }
+            ]
+        }
+    ],
     "stats": [
         {
             "name": "assiduité",
@@ -1049,6 +1213,28 @@
             "name": "dégats",
             "range": [0, 200],
             "description": "Des dégats normaux."
+        }
+    ],
+    "npcs": [
+        {
+            "name": "Designer perdu",
+            "description": "Un design errant sans but dans la cafétaria, l'air hagard.",
+            "dialog": "Attention si vous sortez ! Je reviens de la terrasse, des fumeurs m'ont volés mon goûter !"
+        },
+        {
+            "name": "Designer sans inspiration",
+            "description": "Un designer en train de dessiner à une table.",
+            "dialog": "Rah mince ! Impossible de retrouver ces saletés de crayons ! j'ai cherché dans toutes les salles et je n'ai rien trouvé a part quelques cours de Dev en 205 !"
+        },
+        {
+            "name": "Market travaillant",
+            "description": "Un Market qui fait semblant de travailler.",
+            "dialog": "Hey vous, vous avez vu sur la terrasse ? Quelqu'un a laissé oublier quelques livres, c'est à vous ?"
+        },
+        {
+            "name": "Market pas trés malin",
+            "description": "Un Market qui semble vouloir cacher quelque chose.",
+            "dialog": "N'allez surtout pas en 204, heu quelqu'un à lacher une bombe puante, c'est condamné ! N'y allez pas hein !!"
         }
     ]
 }
