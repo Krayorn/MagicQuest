@@ -9,7 +9,7 @@
                     "placeArrival": "201"
                 },
                 {
-                    "directionName": "pédagogie",
+                    "directionName": "pedagogie",
                     "placeArrival": "Bureau de la pédagogie"
                 },
                 {
@@ -21,28 +21,60 @@
                     "placeArrival": "Toilettes du second étage"
                 },
                 {
-                    "directionName": "cafétaria",
+                    "directionName": "cafetaria",
                     "placeArrival": "Cafétaria"
                 }
             ]
         },
         {
             "name": "201",
-            "description": "Une grande salle de cours, la légende raconte qu'elle est hantée par les Design qui ont échoués à rendre des maquettes à temps.",
+            "description": "Une grande salle de cours, c'est le repaire du BDE de l'école, quand vous arrivez dans la salle, vous remarquez que vous interrompez une réunion du BDE, les 6 participants se lèvent pour vous botter les fesses hors de la salle.",
             "directions": [
                 {
                     "directionName": "hall",
                     "placeArrival": "Hall du second étage"
                 }
+            ],
+            "monsters": [
+                {
+                    "name": "Chef du BDE",
+                    "number": 1
+                },
+                {
+                    "name": "Tresorier",
+                    "number": 1
+                },
+                {
+                    "name": "eleve modele",
+                    "number": 2
+                },
+                {
+                    "name": "Cancre",
+                    "number": 2
+                }
             ]
         },
         {
             "name": "Bureau de la pédagogie",
-            "description": "Une piece avec quatre bureaux, repaire de la pédagogie, nombreux sont les élèves à s'y être aventurés, peu sont revenus...",
+            "description": "Une piece avec quatre bureaux, repaire de la pédagogie, nombreux sont les élèves à s'y être aventurés, peu sont revenus...En entrant, vous êtes face à face avec la Directrice, la responsable de la pédagogie, et deux membres du staff qui sont prêtes à vous faire regretter d'avoir pénétrer dans ce bureau.",
             "directions": [
                 {
                     "directionName": "hall",
                     "placeArrival": "Hall du second étage"
+                }
+            ],
+            "monsters": [
+                {
+                    "name": "Directrice",
+                    "number": 1
+                },
+                {
+                    "name": "Cheffe de la pedagogie",
+                    "number": 1
+                },
+                {
+                    "name": "Guerriere de la pedagogie",
+                    "number": 2
                 }
             ]
         },
@@ -85,7 +117,7 @@
             "description": "Un long couloir avec quelques tables hautes, il permet d'accéder à trois salles de classes et à la terrasse.",
             "directions": [
                 {
-                    "directionName": "caféteria",
+                    "directionName": "cafeteria",
                     "placeArrival": "Cafétaria"
                 },
                 {
@@ -128,7 +160,7 @@
         },
         {
             "name": "205",
-            "description": "Une salle de classe assez mystique, le projecteur ne fonctionne qu'une fois de temps en temps.",
+            "description": "Une salle de classe basique, la légende raconte qu'elle est hantée par les Design qui ont échoués à rendre des maquettes à temps.",
             "directions": [
                 {
                     "directionName": "couloir",
@@ -138,11 +170,17 @@
         },
         {
             "name": "Terrasse extérieure",
-            "description": "La zone fumeur par exellence, elle offre une petite vue sur la cour en contrebas, et les quelques bancs permettent de s'y reposer lorsqu'il n'y fait pas trop froid.",
+            "description": "La zone fumeur par exellence, elle offre une petite vue sur la cour en contrebas, et les quelques bancs permettent de s'y reposer lorsqu'il n'y fait pas trop froid. Lorsque vous ouvrez la porte, vous vous retrouvez face à 3 fumeurs à l'air assez aggressifs qui vous regardent de travers.",
             "directions": [
                 {
                     "directionName": "couloir",
                     "placeArrival": "Couloir du deuxième étage"
+                }
+            ],
+            "monsters": [
+                {
+                    "name": "Fumeur",
+                    "number": 3
                 }
             ]
         }
@@ -335,7 +373,7 @@
             ],
             "spells": [
                 {
-                    "name": "crachage de fumée"
+                    "name": "crachage de fumee"
                 },
                 {
                     "name": "fausse accusation"
@@ -344,7 +382,7 @@
                     "name": "moquerie"
                 },
                 {
-                    "name": "coup de pied retourné"
+                    "name": "coup de pied retourne"
                 }
             ]
         },
@@ -383,30 +421,30 @@
             ],
             "spells": [
                 {
-                    "name": "crachage de fumée"
+                    "name": "crachage de fumee"
                 },
                 {
                     "name": "conseil de discipline"
                 },
                 {
-                    "name": "Je suis dans le staff !"
+                    "name": "Je suis dans le staff"
                 },
                 {
-                    "name": "coup de pied retourné"
+                    "name": "coup de pied retourne"
                 },
                 {
-                    "name": "stage non accepté"
+                    "name": "stage non accepte"
                 },
                 {
-                    "name": "Rendez-vous dans mon bureau !"
+                    "name": "Rendez-vous dans mon bureau"
                 },
                 {
-                    "name": "Va me faire un café !"
+                    "name": "Va me faire un cafe"
                 }
             ]
         },
         {
-            "name": "Cheffe de la pédagogie",
+            "name": "Cheffe de la pedagogie",
             "description": "La leader de la pédagogie, redoutable et menacante, on raconte qu'elle aurait tué des deuxièmes années suite à une conférence manquée.",
             "stats": [
                 {
@@ -446,24 +484,24 @@
                     "name": "conseil de discipline"
                 },
                 {
-                    "name": "Je suis dans le staff !"
+                    "name": "Je suis dans le staff"
                 },
                 {
-                    "name": "coup de pied retourné"
+                    "name": "coup de pied retourne"
                 },
                 {
-                    "name": "stage non accepté"
+                    "name": "stage non accepte"
                 },
                 {
-                    "name": "Rendez-vous dans mon bureau !"
+                    "name": "Rendez-vous dans mon bureau"
                 },
                 {
-                    "name": "Va me faire un café !"
+                    "name": "Va me faire un cafe"
                 }
             ]
         },
         {
-            "name": "Guerriere de la pédagogie",
+            "name": "Guerriere de la pedagogie",
             "description": "Fidèles soldats, prêtes a soutenir leur cheffe au combat.",
             "stats": [
                 {
@@ -497,16 +535,16 @@
             ],
             "spells": [
                 {
-                    "name": "crachage de fumée"
+                    "name": "crachage de fumee"
                 },
                 {
                     "name": "fausse accusation"
                 },
                 {
-                    "name": "Je suis dans le staff !"
+                    "name": "Je suis dans le staff"
                 },
                 {
-                    "name": "stage non accepté"
+                    "name": "stage non accepte"
                 }
             ]
         },
@@ -551,18 +589,18 @@
                     "name": "moquerie"
                 },
                 {
-                    "name": "Je suis dans le staff !"
+                    "name": "Je suis dans le staff"
                 },
                 {
-                    "name": "Invitation à une soirée deguisée 'année 70-80'"
+                    "name": "Invitation à une soiree deguisee 'annee 70-80'"
                 },
                 {
-                    "name": "Cela sera remonté à la pédagogie !"
+                    "name": "Cela sera remonte a la pedagogie"
                 }
             ]
         },
         {
-            "name": "Trésorier",
+            "name": "Tresorier",
             "description": "Un élève au regard fouineur, on entends le bruit des pièces dans ses poches lorsqu'il se déplace.",
             "stats": [
                 {
@@ -602,18 +640,18 @@
                     "name": "moquerie"
                 },
                 {
-                    "name": "Je suis dans le staff !"
+                    "name": "Je suis dans le staff"
                 },
                 {
-                    "name": "Cela sera remonté à la pédagogie !"
+                    "name": "Cela sera remonte a la pedagogie"
                 },
                 {
-                    "name": "Financement participatif !"
+                    "name": "Financement participatif"
                 }
             ]
         },
         {
-            "name": "élève modele",
+            "name": "eleve modele",
             "description": "Un premiere année inconnu au bataillon, bien coiffé dans des vetements impeccables, il a couru pour être sur d'arriver 30 minutes en avance pour la réunion.",
             "stats": [
                 {
@@ -653,7 +691,7 @@
                     "name": "Tutorat"
                 },
                 {
-                    "name": "Seulement 19 ?"
+                    "name": "Seulement 19"
                 }
             ]
         },
@@ -695,13 +733,13 @@
                     "name": "fausse accusation"
                 },
                 {
-                    "name": "crachage de fumée"
+                    "name": "crachage de fumee"
                 },
                 {
                     "name": "moquerie"
                 },
                 {
-                    "name": "Soirée mousse ?"
+                    "name": "Soiree mousse"
                 }
             ]
         }
@@ -729,7 +767,7 @@
             "stats": [
                 {
                     "name": "assiduité",
-                    "value": "javascript"
+                    "value": 15
                 },
                 {
                     "name": "vivacité",
@@ -744,7 +782,7 @@
             "stats": [
                 {
                     "name": "golang",
-                    "value": "javascript"
+                    "value": 20
                 }
             ]
         },
@@ -755,7 +793,7 @@
             "stats": [
                 {
                     "name": "php",
-                    "value": "javascript"
+                    "value": 20
                 }
             ]
         },
@@ -770,7 +808,7 @@
                 },
                 {
                     "name": "vivacité",
-                    "value": "php"
+                    "value": 20
                 }
             ]
         },
@@ -781,7 +819,7 @@
             "stats": [
                 {
                     "name": "autorité",
-                    "value": "php"
+                    "value": 15
                 },
                 {
                     "name": "moyenne_générale",
@@ -790,7 +828,7 @@
             ]
         },
         {
-            "name": "crachage de fumée",
+            "name": "crachage de fumee",
             "description": "Vous crachez de la fumée à la tête de votre adversaire, le faisant tousser au augmentant ses chances de cancer de 15%",
             "type": "damage",
             "stats": [
@@ -834,7 +872,7 @@
             ]
         },
         {
-            "name": "Je suis dans le staff !",
+            "name": "Je suis dans le staff",
             "description": "Vous pointez votre badge pour montrer que vous travaillez dans le staff de l'école.",
             "type": "buff",
             "stats": [
@@ -845,7 +883,7 @@
             ]
         },
         {
-            "name": "coup de pied retourné",
+            "name": "coup de pied retourne",
             "description": "Un grand coup de pied retourné effectué avec classe.",
             "type": "damage",
             "stats": [
@@ -856,7 +894,7 @@
             ]
         },
         {
-            "name": "stage non accepté",
+            "name": "stage non accepte",
             "description": "Vous riez au nez de votre adversaire, lui faisant remarquer que vous venez de refusez son stage.",
             "type": "damage",
             "stats": [
@@ -867,7 +905,7 @@
             ]
         },
         {
-            "name": "Rendez-vous dans mon bureau !",
+            "name": "Rendez-vous dans mon bureau",
             "description": "Vous convoquez votre adversaire dans votre bureau pour lui parler de ses notes",
             "type": "debuff",
             "stats": [
@@ -882,7 +920,7 @@
             ]
         },
         {
-            "name": "Va me faire un café !",
+            "name": "Va me faire un cafe",
             "description": "Vous ordonnez à votre adversaire de vous faire un café.",
             "type": "debuff",
             "stats": [
@@ -897,7 +935,7 @@
             ]
         },
         {
-            "name": "Invitation à une soirée deguisée 'année 70-80'",
+            "name": "Invitation à une soiree deguisee 'annee 70-80'",
             "description": "Vous proposez à votre adversaire de participer à votre prochaine soirée, deguisé en Elton John. C'est terriblement efficace.",
             "type": "debuff",
             "stats": [
@@ -908,7 +946,7 @@
             ]
         },
         {
-            "name": "Cela sera remonté à la pédagogie !",
+            "name": "Cela sera remonte a la pedagogie",
             "description": "Vous menacez votre adversaire de tout raconter à votre mam.. à la pédagogie, but what ? Are you 5 ?",
             "type": "damage",
             "stats": [
@@ -919,7 +957,7 @@
             ]
         },
         {
-            "name": "Financement participatif !",
+            "name": "Financement participatif",
             "description": "Vous demandez 5 euros à votre adversaire pour acheter un micro-ondes.",
             "type": "debuff",
             "stats": [
@@ -941,7 +979,7 @@
             ]
         },
         {
-            "name": "Seulement 19 ?",
+            "name": "Seulement 19",
             "description": "Vous vous plaignez de n'avoir eu que 19 à votre dernière interrogation.",
             "type": "debuff",
             "stats": [
@@ -952,7 +990,7 @@
             ]
         },
         {
-            "name": "Soirée mousse ?",
+            "name": "Soiree mousse",
             "description": "Vous proposez une soirée mousse pour motiver les troupes.",
             "type": "buff",
             "stats": [
